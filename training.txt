@@ -1,0 +1,131 @@
+a class can extends another class
+
+a class can extends multiple classes
+
+a class can extends another interface
+
+a class can implements another interface
+
+a class can implements multiple interfaces
+
+interface can extends another class
+
+interface can extends another interface
+
+interface can extends multiple interfaces
+
+
+
+
+
+
+[10:26 AM] Degaonkar, Sanjay
+    
+public class VarArgsDemo {​​​​​
+static void show(String...args)
+{​​​​​
+for(int i=0;i<args.length;i++)
+{​​​​​
+System.out.println(args[i]);
+}​​​​​
+for(String s:args) //no need do initilization, condition, iteration
+{​​​​​
+System.out.println(s);
+}​​​​​
+
+}​​​​​
+
+ public static void main(String[] args) {​​​​​
+show("one","two","three");
+ }​​​​​
+}​​​​​
+​[10:43 AM] 
+      Payal Goyal (Guest) left the conversation.
+    ​[10:49 AM] 
+      harshita shukla (Guest) left the conversation.
+    ​[10:54 AM] 
+      Uma Kanaujia (Guest) left the conversation.
+    ​[10:58 AM] 
+      Uma Kanaujia (Guest) joined the meeting.
+    ​[11:03 AM] 
+      Payal Goyal (Guest) joined the meeting.
+    ​[11:06 AM] 
+      harshita shukla (Guest) joined the meeting.
+    ​[11:20 AM] Degaonkar, Sanjay
+    
+interface Bank
+{​​​​​
+void createAccount(); public and abstract
+void depositAmount();
+int a=100; // public static and final(constant)
+}​​​​​
+
+class ICICIBank implements Bank
+{​​​​​
+void createAccount()
+{​​​​​
+method body...
+}​​​​​
+
+void despositAmount()
+{​​​​​
+method body...
+}​​​​​
+}​​​​​
+Bank bank=new ICICIBank();
+1) contract between two parties
+Employee contract with Capgemini
+tenent - contract with Owner
+possible to implement multiple contracts
+ abstract interface
+related classes unrelated classes
+e.g e.g. you have contract with Capgemini, contract with Owner
+Employee
+Developer Tester
+
+final -
+final int a=100 //constant
+
+final void show() // final method can not be overridden
+
+final class A{​​​​​}​​​​​ // A class can't be inherited
+ class B extends A - invalid
+
+
+
+
+interface Bank
+{
+void createAccount(); public and abstract
+void depositAmount();
+int a=100; // public static and final(constant)
+}
+
+
+class ICICIBank implements Bank
+{
+void createAccount()
+{
+method body...
+}
+
+void despositAmount()
+{
+method body...
+}
+
+}
+
+Bank bank=new ICICIBank();
+
+1) contract between two parties
+Employee contract with Capgemini
+tenent - contract with Owner
+
+possible to implement multiple contracts
+
+ abstract interface
+related classes unrelated classes
+e.g e.g. you have contract with Capgemini, contract with Owner
+Employee
+Developer Tester
